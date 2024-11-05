@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('house.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    padding: 250px;
+    color: #ffffff;
+}
+
+nav button {
+    margin: 0 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+form {
+    margin: 20px auto;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 8px;
+}
+
+#houseContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.house-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: left;
+}
+
+.house-card h3 {
+    margin: 0;
+    color: #ffffff;
+}
